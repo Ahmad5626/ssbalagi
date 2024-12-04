@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.custom-container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+
+
+.nav-button:hover{
+    background-color: #0F1E5A;
+    transition: 0.5s;
+
+}
+.nav-button:hover a{
+    color: #e7c873;
+}
+/* side bar */
+
+
+.barside {
+    display: block;
+    width: 40%;
+    position: fixed;
+    background-color: white;
+    border-right: 1px solid #b5b5b5;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    z-index: 999;
+    transition: 0.5s;
+
+}
+
+.barside1 {
+    left: 0px;
+    transition: 0.5s;
+}
+.barside ul{
+list-style:none;
+padding: 0px;
+}
+.barside ul li{
+    padding: 10px 20px;
+}
+.barside ul li:hover{
+    background-color: #358e83;
+    color: white;
+}
+/* .barside ul li:hover a{
+    color: white;
+} */
+.barside ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+    font-weight: 500;
+    padding: 5px 0px;
+
+}
+
+/* our services */
+.services-cart {
+
+    background: #FFF;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.doctor-name{
+    background-image: linear-gradient(#2A2D7A, #DA2127);
+    color: transparent;
+    background-clip: text;
+}
+.Appointment-box{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 0px 30px 0px rgba(2, 29, 53, 0.08);
+}
+.Testimonial-left{
+    border-radius: 0px 200px 20px 0px;
+background: linear-gradient(0deg, #2A2D7A 0%, #2A2D7A 100%), #2A2D7A;
+
+}
+@media(max-width:768px) {
+    
+.custom-container{
+    max-width:90%;
+    margin: auto;
+}
+
+}
+
+.Quick-line{
+    width: 92px;
+height: 2px;
+border-radius: 10px;
+background: linear-gradient(90deg, #DA2127 0%, rgba(42, 45, 122, 0.20) 100%);
+
+}
