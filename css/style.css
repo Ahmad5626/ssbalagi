@@ -102,3 +102,15 @@ border-radius: 10px;
 background: linear-gradient(90deg, #DA2127 0%, rgba(42, 45, 122, 0.20) 100%);
 
 }
+
+.blog-box-button{
+    border-radius: 30px;
+background: linear-gradient(180deg, #DA2127 37.5%, #2A2D7A 100%);
+
+box-shadow: 0px 2px 10px 0px rgba(184, 191, 208, )
+}
+/* contact-us */
+
+.contact-us{
+    
+}
